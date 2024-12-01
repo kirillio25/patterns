@@ -16,6 +16,8 @@ class TemperatureCommand implements Command
         $this->temperature->increase();
     }
 
+
+
     public function undo(): void
     {
         $this->temperature->decrease();

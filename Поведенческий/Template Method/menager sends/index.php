@@ -9,4 +9,6 @@ $standardOrder->processOrder();
 
 echo "\n=== Заказ с доставкой ===\n";
 $deliveryOrder = new DeliveryOrder();
+
 $deliveryOrder->processOrder();
+
